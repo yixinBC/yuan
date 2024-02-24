@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-python.black-formatter",
+        "usernamehw.errorlens",
+        "eamodio.gitlens",
+        "ms-python.isort",
+        "ms-python.vscode-pylance",
+        "ms-python.pylint",
+        "ms-python.python"
+    ]
+}

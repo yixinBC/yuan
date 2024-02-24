@@ -1,0 +1,25 @@
+[project]
+name = "yuan"
+version = "0.1.0"
+description = "a ctf platform based on FastAPI"
+authors = [{ name = "yixinBC", email = "yixinbc@foxmail.com" }]
+dependencies = [
+    "fastapi>=0.109.2",
+    "uvicorn>=0.27.1",
+    "sqlalchemy>=2.0.27",
+    "aiomysql>=0.2.0",
+    "alembic>=1.13.1",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+license = { text = "GPL-3.0" }
+classifiers = ["Private :: Do Not Upload"]
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
+
+[[tool.rye.sources]]
+name = "default"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
